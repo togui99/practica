@@ -7,7 +7,7 @@ services:
 
     ports:
       # HTTP
-      - 8686:9595
+      - 9696:9595
     environment:
       NIFI_WEB_HTTP_PORT: 9595
 
