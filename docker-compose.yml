@@ -7,9 +7,9 @@ services:
 
     ports:
       # HTTP
-      - 9696:9595
+      - 8181:8181
     environment:
-      NIFI_WEB_HTTP_PORT: 9595
+      NIFI_WEB_HTTP_PORT: 8181
 
     networks:
       - backend
